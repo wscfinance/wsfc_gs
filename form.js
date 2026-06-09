@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (result.success) {
           confirmationMessage.style.display = "block";
           form.reset();
-          document.querySelector('.toggle-btn[data-type="cash"]').click();
+          document.querySelector('.toggle-btn[data-type="e-banking"]').click();
         } else {
           alert(result.message || "Submission failed.");
         }
